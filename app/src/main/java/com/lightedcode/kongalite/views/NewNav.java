@@ -22,11 +22,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.lightedcode.kongalite.R;
 import com.lightedcode.kongalite.fragments.Homeviews;
 import com.lightedcode.kongalite.fragments.News;
@@ -63,6 +66,9 @@ public class NewNav extends AppCompatActivity
     Intent intent, chooser;
     FirebaseAuth auth;
     DatabaseReference dref;
+    String username, user_mail;
+    ImageView dp;
+    TextView name, email;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -80,7 +86,7 @@ public class NewNav extends AppCompatActivity
          navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
         activityTitles = getResources().getStringArray(R.array.nav_item_activity_titles);
-
+           authlistner();
 
         if (savedInstanceState == null) {
             navItemIndex = 0;
@@ -209,8 +215,6 @@ public class NewNav extends AppCompatActivity
                 CURRENT_TAG = TAG_SETTINGS;
                 break;
             case R.id.sign_out:
-                navItemIndex = 8;
-                CURRENT_TAG = TAG_SIGNOUT;
                 SigningOut();
                 break;
             default:
@@ -349,28 +353,52 @@ public class NewNav extends AppCompatActivity
     }
 
     private void authlistner(){
+        dref = FirebaseDatabase.getInstance().getReference("Users").getRef();
+        DatabaseReference databaseReference = dref.child("username");
+        DatabaseReference databaseReference1 = dref.child("email");
+        name = (TextView)findViewById(R.id.name);
+        email = (TextView)findViewById(R.id.email);
+        dp = (ImageView)findViewById(R.id.img_profile);
         auth = FirebaseAuth.getInstance();
-        auth.addAuthStateListener(new FirebaseAuth.AuthStateListener() {
-            @Override
-            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-                FirebaseUser user = firebaseAuth.getCurrentUser();
-                if (user != null){
+       if (auth.getCurrentUser() != null )
+       {
+           username = databaseReference.toString();
+           user_mail = databaseReference1.toString();
+         name.setText(username);
+           email.setText(user_mail);
+           dp.setOnClickListener(new View.OnClickListener() {
+               @Override
+               public void onClick(View view) {
+                   intent = new Intent(NewNav.this, User.class);
+                   intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                   startActivity(intent);
+               }
+           });
 
-                }
-            }
-        });
+       }else {
+           name.setVisibility(View.GONE);
+           email.setVisibility(View.GONE);
+       }
     }
     private void SigningOut(){
         AlertDialog.Builder builder = new AlertDialog.Builder(NewNav.this);
-        builder.setMessage("Are you sure you want to exit?");
-        builder.setTitle("Exit");
+        builder.setMessage("Are you sure you want to Sign out \n You wont be ale to make any transactions ");
+        builder.setTitle("Sign out");
         builder.setCancelable(true);
         builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                auth.signOut();
+                if (auth.getCurrentUser() != null){
+                    auth.signOut();
+                    intent = new Intent(getApplicationContext(), NewNav.class);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                    startActivity(intent);
+                    finish();
+                }else{
+                    Toast.makeText(getApplicationContext(), "Sorry you are not loged in", Toast.LENGTH_LONG).show();
+                }
+
                 dialogInterface.cancel();
-                Toast.makeText(getApplicationContext(),"No action for this yet", Toast.LENGTH_LONG).show();
 
             }
         });

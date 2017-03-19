@@ -84,9 +84,9 @@
                 android:background="@drawable/edit_text"
                 android:id="@+id/quantity"/>
             <Button
-                android:layout_width="80dp"
+                android:layout_width="60dp"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/quantity"
+                android:layout_below="@+id/qty"
                 android:layout_alignParentEnd="true"
                 android:text="Update"
                 android:textColor="@color/white"
@@ -134,7 +134,15 @@
                 android:id="@+id/details"
                 android:layout_marginBottom="5dp"/>
 
-
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/details"
+                android:layout_alignParentEnd="true"
+                android:text="Remove"
+                android:textColor="@color/white"
+                android:id="@+id/cancel"
+                android:background="@drawable/buy_button"/>
         </RelativeLayout>
 
 

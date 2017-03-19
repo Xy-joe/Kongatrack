@@ -41,6 +41,7 @@ EditText em, pass;
         setContentView(R.layout.login_layout);
         showDialog();
         connectivity = new Connectivity(this);
+        auth = FirebaseAuth.getInstance();
         clicklistners();
 
 

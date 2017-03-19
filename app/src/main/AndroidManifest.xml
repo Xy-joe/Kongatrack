@@ -28,6 +28,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".views.ProductDetails"
             android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".views.Categories"
             />
         <activity
             android:name=".views.Carts"

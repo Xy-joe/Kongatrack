@@ -46,9 +46,7 @@ EditText fname, ln, uname, pass, confpass, address, gma, phon,state, country;
         login.setOnClickListener(this);
         showDialog();
     }
-    private void setSignup(){
 
-    }
 
     @Override
     public void onClick(View view) {
@@ -186,13 +184,9 @@ EditText fname, ln, uname, pass, confpass, address, gma, phon,state, country;
             Toast.makeText(this, "Password do not match", Toast.LENGTH_LONG).show();
             return;
         }else {
-            if (connectivity.isConnected()) {
-                pd.show();
-                if (auth.getCurrentUser() != null){
-                    pd.dismiss();
-                    Toast.makeText(Signup.this, "Account already exist ", Toast.LENGTH_LONG).show();
 
-                }else {
+                pd.show();
+            if (connectivity.isConnected()) {
                     auth.createUserWithEmailAndPassword(email, password).
                             addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                                 @Override
@@ -200,7 +194,7 @@ EditText fname, ln, uname, pass, confpass, address, gma, phon,state, country;
                                     pd.dismiss();
                                     if (task.isSuccessful()) {
                                         if (profilesetup()) {
-                                            Toast.makeText(Signup.this, "Account succesfully created", Toast.LENGTH_LONG).show();
+                                            Toast.makeText(Signup.this, "Account succesfully created", Toast.LENGTH_SHORT).show();
                     intent = new Intent(getApplicationContext(), Login.class);
                startActivity(intent);
                                         }
@@ -209,12 +203,15 @@ EditText fname, ln, uname, pass, confpass, address, gma, phon,state, country;
                             }).addOnFailureListener(new OnFailureListener() {
                         @Override
                         public void onFailure(@NonNull Exception e) {
-
+                                 e.printStackTrace();
                         }
                     });
-                }
+                }else {
+                Toast.makeText(Signup.this, "Internet connection failed",
+                        Toast.LENGTH_SHORT).show();
+
+            }
                         }
-                    }
     }
     private boolean isValidEmail(String email) {
         boolean isGoodEmail =

@@ -84,8 +84,9 @@ Toolbar toolbar;
                    showmesg();
                 }else {
                     if (addproductocart()){
-                        Toast.makeText(getApplicationContext(), "Transactions Successful", Toast.LENGTH_LONG).show();
-                              trackgoods();
+                        Toast.makeText(getApplicationContext(), "Added to Successful", Toast.LENGTH_LONG).show();
+                        intent = new Intent(ProductDetails.this, Carts.class);
+                        startActivity(intent);
                     }else {
                         Toast.makeText(getApplicationContext(), "Error completing transactions", Toast.LENGTH_LONG).show();
                     }
@@ -231,8 +232,7 @@ Toolbar toolbar;
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 dialogInterface.cancel();
-                intent = new Intent(ProductDetails.this, Carts.class);
-                startActivity(intent);
+
             }
         });
         AlertDialog alert = builder.create();

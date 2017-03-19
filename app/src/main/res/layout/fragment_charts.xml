@@ -8,6 +8,7 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
+        app:titleTextColor="@color/white"
         android:background="@color/kongalightblue"
         app:layout_scrollFlags="scroll|enterAlways"
         app:popupTheme="@style/AppTheme.PopupOverlay">
@@ -111,7 +112,7 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
                     android:text="Order now"
                     android:textColor="@color/white"
                     android:background="@drawable/buy_button"
-                    android:id="@+id/buy_button"/>
+                    android:id="@+id/order_button"/>
             </RelativeLayout>
         </android.support.v7.widget.CardView>
     </LinearLayout>

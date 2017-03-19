@@ -23,6 +23,28 @@ The app uses **Firebase** and **Cloudinary** as it's backend database for data a
 1) Basically any one can read from the database but only authenticated users can write from it.
 2) Only authenticated users can make transactions onthe application(i.e buying, commenting on products
 
+#How to Shop and Track Goods
+1)Click the Carts icon on the menu toolbar to see the latest product or click the floating bar button on the Home Screen
+to go to the categories of goods to select from 
+![](./res/k1.png)
+
+2) Select the category of your choice
+![](./res/k2.png)
+
+3) Click on any product of your choice to se the details of the goods/product
+![](./res/k3.png)
+
+4)After Viewing the details and comments click the **Add to Carts** button on the top right corner of the screen
+![](./res/k4.png) ![](./res/k5.png)
+
+**NOTE** If you are not signed in, you will be promted to do so, before You can go any further. But if you are already signed in then move on to **step 5**
+
+5)On the carts screen you can specify the quantity of goods and so on or even add another product by clicking on the **add cart** button on the top right corner of the screen.
+
+6) Finally click on the Order button and You will be prompted to monitor and track your goods which on accepting will now take you to your default browser to track your goods/product.
+
+
+
 #NOTE:
 1) As of the time of upload due to the time of development, there is a little or no MVC implementation on the application
 2) The content/products that are contained in this application are just dummy contents.

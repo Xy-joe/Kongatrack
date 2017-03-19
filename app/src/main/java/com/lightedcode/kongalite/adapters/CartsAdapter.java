@@ -53,7 +53,7 @@ Context context;
         return data.size();
     }
 
-    public class ViewHolderClass extends RecyclerView.ViewHolder implements View.OnClickListener{
+    public class ViewHolderClass extends RecyclerView.ViewHolder{
         TextView name, details, price,discount;
         ImageView dp;
         public ViewHolderClass(View itemView) {
@@ -66,9 +66,6 @@ Context context;
 
         }
 
-        @Override
-        public void onClick(View view) {
 
-        }
     }
 }
