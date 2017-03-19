@@ -1,0 +1,88 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+tools:context="com.lightedcode.kongalite.views.NewNav"
+    android:background="@color/kongalightblue">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <android.support.v4.view.ViewPager
+                android:layout_height="300dp"
+                android:id="@+id/viewpage"
+                android:layout_marginTop="0dp"
+                android:layout_width="match_parent">
+
+            </android.support.v4.view.ViewPager>
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@drawable/toolbar_design"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:popupTheme="@style/AppTheme.PopupOverlay">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                    <TextView
+                        android:id="@+id/new_p"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/new_product"
+                        android:layout_marginTop="@dimen/activity_vertical_margin"
+                        android:textStyle="bold"
+                        android:layout_alignParentStart="true"
+                        android:textColor="@color/white"
+                        android:typeface="monospace"/>
+                    <TextView
+                        android:id="@+id/hot_p"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hot_product"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="20dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="@dimen/activity_vertical_margin"
+                        android:textColor="@color/white"
+                        android:typeface="monospace"/>
+                </RelativeLayout>
+            </android.support.v7.widget.Toolbar>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="0dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/newp_layout">
+                    <android.support.v7.widget.RecyclerView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/new_p_recycler">
+
+                    </android.support.v7.widget.RecyclerView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/hotp_layout">
+                    <android.support.v7.widget.RecyclerView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/hotp_recycler">
+
+                    </android.support.v7.widget.RecyclerView>
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

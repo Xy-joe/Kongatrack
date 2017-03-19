@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kongalightblue"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar_layout"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/company"
+            android:textSize="25dp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/white"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/company_description"
+            android:textSize="18dp"
+            android:textStyle="normal|italic"
+            android:textColor="@color/white"
+            android:textAlignment="center"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin">
+          <ImageView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/ic_gmail_icon"
+              android:id="@+id/gmail_icon"
+              android:layout_marginStart="@dimen/activity_horizontal_margin"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/company_mail"
+                android:textSize="25dp"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                android:layout_toEndOf="@+id/gmail_icon"
+                android:textAlignment="textStart"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+
+</android.support.v4.widget.NestedScrollView>

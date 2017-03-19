@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lightedcode.kongalite">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@raw/applogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <activity
+            android:name=".views.User"
+            android:parentActivityName=".views.NewNav"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".views.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".views.About"
+            android:parentActivityName=".views.NewNav"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".views.ProductDetails"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity
+            android:name=".views.Carts"
+            android:parentActivityName=".views.NewNav"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".views.Categories"
+            android:parentActivityName=".views.NewNav"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".views.PhoneCategories"
+            android:parentActivityName=".views.Categories"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".views.HomeandKitchen"
+            android:parentActivityName=".views.Categories"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".views.AutoIndus"
+            android:parentActivityName=".views.Categories"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".views.BabyandKids"
+            android:parentActivityName=".views.Categories"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".views.TechCategories"
+            android:parentActivityName=".views.Categories"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".views.Others"
+            android:parentActivityName=".views.Categories"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".views.FashionCategories"
+            android:parentActivityName=".views.Categories"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".views.Login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".views.Signup"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".views.Computer"
+            android:parentActivityName=".views.Categories"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".views.NewNav"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

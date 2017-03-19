@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ae2afefbf83ac2873be62f7544df7e396b9d07ad">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/instant-run_c3565cfa553f4aa0c4e817b5c8caa155438423db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.2.0_e52dc5d0221f8462a77008a2ef4dcb0780dea355.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="30a4938ea5235ccf532b3e9f04200e68547e36ad">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.2.0_b8610f77bc3b9e50ffb97a486b7533f8419510d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.8.0_0d29313f6604b3dd65f9a69e02ef82c2cd40c56a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="acf4c8096655782f4ac9b5d10be2d8d9859143ab">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_397d8b26a3bd26e8246465e1c7e70081d0dbe110.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.2.0_f8ef82d4b598bbd303fbf8d780ae8b62412a9774.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.2.0_27fc4c891a472b6cbf7b139ff38bd6fa6cdc1a34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4b868b833b0887aa48c4e581558eef4f1196f6a2">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/de.hdodenhof-circleimageview-1.2.1_1b5c5484a902e4417221cd200f06e83ad5d36644.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.2.0_a8f20e6bbf3ec32602490234f64cbcdb54ab2d78.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.2.0_8ef4df5470d81214ca36567e504713ccfd9baad7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9ff04cc3470178a44512624036751a803418c2ca">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.8.0_89901e84769bcd12bcaa70e8f17ed42481a2f561.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.2.0_e75a4c50fc01796e443ff122aa5f454418145fda.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.2.0_76e7a9908249fa4fdae824ae01e09f9ff8f2d183.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.2.0_ba342e61aab31063e8b90b34bc61deaf1c00a374.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.8.0_c0d99b05431214adfd56b5f074c4bde5c3645e44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="190a642ba16d1421296a4d794606279b80039c59">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.8.0_f372c3ac822c9bd583bb0864f4c82234541f4249.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.android.support/transition/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.2.0_ed673a99116a627cac695756ef5fbdcb06b11789.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="03df48d3713661d66ad024b1e406259a4c26fcac">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-9.8.0_23e7dbeee736789995cf8b350f8f9d3a303494fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3f8f779a22cbb4c4d0759467a4f1011bb5252970">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-module-9.8.0_4d1e0dcb23a6696aeb32d1f19c37bc565d5a149e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.8.0_9f6d1ef5e268bb6e483bac02e7e99e39971026cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.2.0_dbda4f430f9f93dc55cac078edd5be7580284901.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7fd91ec2730fdaa82906aad32a3f3d3e574bae56">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-storage-9.8.0_37cec5352d2e4e32fa7eae30dbe410f56fb22ba0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ca851be26ff89f5b32cc222cee98139fb3fac830">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-9.8.0_c0ba2d63a162e8b3305ba7d041a52f7113e497fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4438b1a7848a7c571122ba618aa1304514aabee6">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-common-9.8.0_931ff7b497d6b9bd7a04e5f43209dce4895d3e14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.2.0_833cf8399252c18cb2f71fba3ce99da5c9db73b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="15e59454416c6341bd3ed2533b585cd340682dd1">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-9.8.0_7da560c3613a10d9ed55f1fad8215f5d4c9ae6ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f47ede9561595584dca71104baa0fecb36dda87">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-9.8.0_6ab8c98f948ccdadfae3651be9cec5ba7d8537ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a1ed98e01bd58976d80c062fd0ea2968a1ff68a1">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-base-9.8.0_af24fb371ea12726ad16675e478bc5091db32691.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ec9104b53aee77dfcfd2fe1c4add23ff7c4df55f">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-storage-common-9.8.0_fdddd632a00584e83bf3d050c8ebebfc4e1f3923.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.2.0_55ab58798f3dd457a97c8d0c1e83a641410bd8d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_a80079b3da116d3f951b91c1490ba4bfcb89e597.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.8.0_d152656f963776078bd178d9d177f1e7258e0a8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_9ced858eeb710d6ed4045201ce9ae0177232ade0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.8.0_c29b011317a6adc3a3c5bbc27b58317976f7ba31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b4671be3d1288bf4e5f527cd33e42909fbe4ecc6">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/Kongalite/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-crash-9.8.0_a7349b7fd30f5a931518646fc8ced0b3c315c877.jar" />
+    </item>
+
+</items>

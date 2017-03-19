@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+>
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/kongalightblue"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+    </android.support.v7.widget.Toolbar>
+
+<android.support.v4.widget.NestedScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_below="@+id/toolbar"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:id="@+id/cart_recycler">
+
+
+        </android.support.v7.widget.RecyclerView>
+        <android.support.v7.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/details">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CART SUMMARY"
+                    android:textSize="17dp"
+                    android:layout_marginStart="20sp"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:textStyle="bold"
+                    android:typeface="sans"
+                    android:textColor="@color/black"
+                    android:id="@+id/head"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total"
+                    android:layout_below="@+id/head"
+                    android:textSize="17dp"
+                    android:layout_marginStart="20sp"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:textStyle="bold"
+                    android:typeface="sans"
+                    android:textColor="@color/black"
+                    android:id="@+id/total"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3456"
+                    android:textSize="17dp"
+                    android:layout_below="@id/head"
+                    android:layout_toEndOf="@+id/total"
+                    android:layout_marginStart="20sp"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:textStyle="normal"
+                    android:typeface="sans"
+                    android:textColor="@color/black"
+                    android:id="@+id/totalp"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/deliverycharge"
+                    android:textSize="17dp"
+                    android:layout_below="@id/total"
+                    android:layout_marginStart="20sp"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:textStyle="bold"
+                    android:typeface="sans"
+                    android:textColor="@color/black"
+                    android:id="@+id/deliver"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/deliverychargemsg"
+                    android:textSize="17dp"
+                    android:layout_below="@id/total"
+                    android:layout_toEndOf="@+id/deliver"
+                    android:layout_marginStart="20sp"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="normal"
+                    android:typeface="sans"
+                    android:textColor="@color/black"
+                    android:id="@+id/deli"
+                    android:layout_marginBottom="5dp"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/deli"
+                    android:layout_centerInParent="true"
+                    android:text="Order now"
+                    android:textColor="@color/white"
+                    android:background="@drawable/buy_button"
+                    android:id="@+id/buy_button"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

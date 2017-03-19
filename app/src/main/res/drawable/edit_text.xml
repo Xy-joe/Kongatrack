@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:shape="rectangle"
+    android:thickness="2dp"
+    android:visible="true">
+    <stroke android:width="2dp"
+        android:color="@color/colorAccent"
+        android:dashGap="@dimen/appbar_padding_top"/>
+    <corners android:radius="1.5dp" />
+    <gradient
+        android:startColor="@color/white"
+        android:endColor="@color/white"
+        android:type="linear"
+        android:angle="270"/>
+</shape>

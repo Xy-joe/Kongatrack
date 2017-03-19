@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">Kongalite</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_update">Update</string>
+    <string name="action_like">Like us</string>
+    <string name="action_rate">Rate us</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="action_share">Share</string>
+    <string name="action_feedback">Feed back</string>
+    <string name="deliverycharge">Delivery Charge</string>
+    <string name="deliverychargemsg">Calculated In Checkout</string>
+    <string name="action_help">How to shop</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+<string name="forgot_pass">Its ok to forget, just provide your email address and your password reset ling will
+be sent to you</string>
+    <string-array name="tabb_headers">
+        <item>Home</item>
+        <item>Promotions</item>
+    </string-array>
+    <string-array name="nav_item_activity_titles">
+        <item>KongaLite</item>
+        <item>Promotions</item>
+        <item>News</item>
+        <item>Notifications</item>
+        <item>How to Shop</item>
+        <item>Feedback</item>
+        <item>Share</item>
+        <item>Settings</item>
+        <item>Sign out</item>
+    </string-array>
+    <string-array name="collections">
+        <item>Women Suits Collectios</item>
+        <item>Shoes Collections</item>
+        <item>Wedding Gowns</item>
+        <item>Mobile Phones</item>
+        <item>Women Lingerie</item>
+        <item>Affrican Ankara Collection </item>
+        <item>Laptops and Accesories</item>
+    </string-array>
+    <string-array name="price">
+        <item>$100.00</item>
+        <item>$700.00</item>
+        <item>$200.00</item>
+        <item>$140.00</item>
+        <item>$750.00</item>
+        <item>$200.00</item>
+        <item>$400.00</item>
+    </string-array>
+    <string name="new_product">New Products</string>
+    <string name="hot_product">Hot Products</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="exit">Exit</string>
+    <string-array name="exhibit2">
+        <item>Men Wedding Dresses </item>
+        <item>Ball Gowns</item>
+        <item>Dinner Shoes</item>
+        <item>Lingerie</item>
+        <item>Speakers</item>
+        <item>Computers</item>
+        <item>Fashion Glasses</item>
+        <item>Celebrity Watches</item>
+    </string-array>
+    <string-array name="exhibit1">
+        <item>Laptops</item>
+        <item>Refrigerator</item>
+        <item>Women Suits</item>
+        <item>Shoes</item>
+        <item>Lingeries</item>
+        <item>Men underwears</item>
+        <item>TV Screens</item>
+        <item>Women Coperate Wears</item>
+    </string-array>
+    <string-array name="categories">
+        <item>Phones and Tablets</item>
+        <item>Computers and Accessories</item>
+        <item>Automotive and Industrial</item>
+        <item>Electronics</item>
+        <item>Konga Fashion</item>
+        <item>Home and Kitchen</item>
+        <item>Baby, Kids and Toys</item>
+        <item>General</item>
+    </string-array>
+    <string-array name="computer_and_accessories">
+        <item>All Computer and Accessories</item>
+        <item>Laptops</item>
+        <item>Desktops and Monitors</item>
+        <item>Networking</item>
+        <item>Computing Accessories</item>
+        <item>Printer, Scanners and Accessories</item>
+        <item>Computer Software</item>
+        <item>Projector and Accessories</item>
+        <item>Special Offer</item>
+        <item>Computing Bundles</item>
+    </string-array>
+
+    <string-array name="Laptops">
+        <item>All Laptops</item>
+        <item>Computer and Accessories markdown deals</item>
+        <item>Mini Laptops and Notebok</item>
+        <item>Notebooks</item>
+        <item>Hybrid Computers</item>
+        <item>Ultra books</item>
+        <item>Apple Macbooks</item>
+        <item>Computing Bundles</item>
+    </string-array>
+    <string-array name="Desktop_and_monitors">
+        <item>All Desktops and Monitors</item>
+        <item>All in One Computers</item>
+        <item>CPUs</item>
+        <item>Desktops Bundles</item>
+        <item>Monitors</item>
+        <item>Computer Servers</item>
+        <item>UPS</item>
+    </string-array>
+    <string-array name="fashion">
+        <item>All Fashion</item>
+        <item>Women lingerie</item>
+        <item>Men wears</item>
+        <item>Men shoes</item>
+        <item>Women wears</item>
+        <item>All watches</item>
+        <item>Women Accessories</item>
+        <item>Men Accessories</item>
+        <item>Textiles</item>
+        <item>Wedding Dressess</item>
+    </string-array>
+
+    <string-array name="home_kichen">
+        <item>All Home and Kichen</item>
+        <item>Refrigerators</item>
+        <item>Blenders</item>
+        <item>Cooking Gas</item>
+        <item>Utensils</item>
+        <item>Home Furnishings</item>
+        <item>Small appliances</item>
+        <item>Kitchen Dinnings</item>
+        <item>All Fashion</item>
+        <item>All Fashion</item>
+        <item>All Fashion</item>
+        <item>All Fashion</item>
+        <item>All Fashion</item>
+    </string-array>
+    <string name="profile">My Profile</string>
+    <string name="order_history">Order History</string>
+    <string name="about">About us</string>
+    <string name="company">LightedCode</string>
+    <string name="company_description">
+        LightedCode is an integrated structure headed a
+team of skilled and dedicated programmers and
+developers with a single goal –Innovation
+in our time. Created to train and inform the target
+audience in software engineering and coding, and to
+connect with clients with competent developers, the
+calling of the team is to improve the ability of
+member programmers, computer scientists and
+engineers to new heights. With the sole
+intention of building a world ranking network of
+programmers, developers and designers, capable of
+developing and innovating outstanding technology
+from the depths of Africa.
+    </string>
+    <string name="company_mail">lightedcode@gmail.com</string>
+    <string name="company_facebook">LightedCode</string>
+    <string name="title_activity_new_nav">NewNav</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+<string name="funi_desrip">Buy this while its still cheap if not you may live to regrret if lol</string>
+</resources>

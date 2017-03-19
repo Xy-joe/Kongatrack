@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "712549018232",
+    "firebase_url": "https://kongalite-544f1.firebaseio.com",
+    "project_id": "kongalite-544f1",
+    "storage_bucket": "kongalite-544f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712549018232:android:522ad041b7ce38d3",
+        "android_client_info": {
+          "package_name": "com.lightedcode.kongalite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712549018232-lhjc7r7suoijb0srpar7scj70erg41p8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTuH_f_LiUKDIfaHIwNee_r0azbZmm5Ps"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

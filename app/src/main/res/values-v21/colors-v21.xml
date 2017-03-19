@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#697ded</color>
+    <color name="colorPrimaryDark">#0c38e7</color>
+    <color name="colorAccent">#e7091b</color>
+    <color name="white">#FAFAFA</color>
+    <color name="grey">#9E9E9E</color>
+    <color name="black">#FF060606</color>
+    <color name="greybdy">#bdbdbd</color>
+    <color name="brown">#4e342e</color>
+    <color name="lightbrown">#8d6e63</color>
+    <color name="kongalightblue">#f77715</color>
+    <color name="kongablue">#e17801</color>
+    <color name="kongabutton">#4b90f9</color>
+</resources>

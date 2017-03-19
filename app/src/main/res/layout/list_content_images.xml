@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+    <android.support.v7.widget.CardView
+        android:layout_height="250dp"
+        android:layout_width="match_parent"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/greybdy">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All Computers and Accessories"
+                android:textSize="17dp"
+                android:layout_marginStart="5dp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="normal"
+                android:typeface="sans"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:id="@+id/p_name"/>
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/p_name"
+                android:src="@raw/ren"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp"
+                android:id="@+id/dp"
+                android:layout_marginEnd="10dp"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p_name"
+                android:layout_toEndOf="@+id/dp"
+                android:text="15% discount"
+                android:textSize="15dp"
+                android:layout_marginStart="5dp"
+                android:textStyle="normal"
+                android:typeface="sans"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:id="@+id/discount"/>
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/discount"
+                android:layout_toEndOf="@+id/dp"
+                android:text="2500"
+                android:textSize="15dp"
+                android:layout_marginStart="5dp"
+                android:textStyle="normal"
+                android:typeface="sans"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:id="@+id/price"/>
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:text="Buy now"
+                android:textColor="@color/white"
+                android:background="@drawable/buy_button"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="17dp"
+                android:text="@string/funi_desrip"
+                android:textSize="17dp"
+                android:layout_marginStart="15dp"
+                android:textStyle="normal"
+                android:typeface="sans"
+                android:textColor="@color/black"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/details"
+                android:layout_marginBottom="5dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

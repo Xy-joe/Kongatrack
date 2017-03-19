@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_account"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/white"
+    tools:context="com.lightedcode.kongalite.views.User">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@raw/defaultdp"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Billing Info"
+            android:layout_alignParentStart="true"
+            android:textSize="20dp"
+            android:textColor="@color/kongablue"
+            />
+        <RelativeLayout
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First name"
+                android:layout_alignParentStart="true"
+                android:textSize="15dp"
+                android:textColor="@color/kongablue"
+                android:id="@+id/fn"/>
+            <TextView
+                android:text=""
+                android:textColor="@color/kongablue"
+                android:textSize="15sp"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:textAlignment="inherit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/fn"
+                android:id="@+id/first_name" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last name"
+                android:layout_below="@+id/fn"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_alignParentStart="true"
+                android:textSize="15dp"
+                android:textColor="@color/kongablue"
+                android:id="@+id/ln"/>
+            <TextView
+                android:text=""
+                android:textColor="@color/kongablue"
+                android:textSize="15sp"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_below="@+id/first_name"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:textAlignment="inherit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/ln"
+                android:id="@+id/last_name" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User name"
+                android:layout_below="@+id/ln"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_alignParentStart="true"
+                android:textSize="15sp"
+                android:textColor="@color/kongablue"
+                android:id="@+id/un"/>
+            <TextView
+                android:text=""
+                android:textColor="@color/kongablue"
+                android:textSize="15dp"
+                android:layout_below="@+id/last_name"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:textAlignment="inherit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/un"
+                android:id="@+id/user_name" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email:"
+                android:layout_alignParentStart="true"
+                android:textSize="15sp"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_below="@+id/un"
+                android:textColor="@color/kongablue"
+                android:id="@+id/em"/>
+            <TextView
+                android:text=""
+                android:textColor="@color/kongablue"
+                android:textSize="15sp"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_below="@+id/user_name"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:textAlignment="inherit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/em"
+                android:id="@+id/email" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone:"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_below="@+id/em"
+                android:layout_alignParentStart="true"
+                android:textSize="15sp"
+                android:textColor="@color/kongablue"
+                android:id="@+id/pn"/>
+            <TextView
+                android:text=""
+                android:textColor="@color/kongablue"
+                android:layout_below="@+id/email"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:textSize="15sp"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:textAlignment="inherit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/pn"
+                android:id="@+id/phone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address:"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_below="@+id/pn"
+                android:layout_alignParentStart="true"
+                android:textSize="15sp"
+                android:textColor="@color/kongablue"
+                android:id="@+id/ad"/>
+            <TextView
+                android:text="null"
+                android:textColor="@color/white"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_below="@+id/phone"
+                android:textSize="15sp"
+                android:textAlignment="inherit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/ad"
+                android:id="@+id/address" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="State:"
+                android:layout_below="@+id/address"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_alignParentStart="true"
+                android:textSize="15sp"
+                android:textColor="@color/kongablue"
+                android:id="@+id/st"/>
+            <TextView
+                android:text=""
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/kongablue"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_below="@+id/address"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:textAlignment="inherit"
+                android:layout_width="match_parent"
+                android:layout_toEndOf="@+id/st"
+                android:id="@+id/state" />
+        >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Country:"
+                android:layout_below="@+id/state"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_alignParentStart="true"
+                android:textSize="15sp"
+                android:textColor="@color/kongablue"
+                android:id="@+id/co"/>
+            <TextView
+                android:text=""
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_marginStart="20sp"
+                android:layout_below="@+id/state"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:textAlignment="inherit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/co"
+                android:id="@+id/country" />
+
+            <Button
+                android:text="Update"
+                android:layout_width="150dp"
+                android:background="@drawable/buy_button"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/country"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:textStyle="bold|italic"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/buy_button"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_below="@+id/country"
+                android:text="Change password"
+                android:layout_width="150dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:id="@+id/login_btn" />
+        </RelativeLayout>
+        <TextView
+            android:text="Don't have an account ? sign up"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"
+            android:id="@+id/signup" />
+
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
