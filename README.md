@@ -20,6 +20,7 @@ Kongatrack android application is also a mini version to the **Konga original** 
 The app uses **Firebase** and **Cloudinary** as it's backend database for data and images respectively. 
 
 ## Permissions
+1) Uses Internet Permission. You should be connected ti the Internet to gain full access to the app
 1) Basically any one can read from the database but only authenticated users can write from it.
 2) Only authenticated users can make transactions onthe application(i.e buying, commenting on products
 
