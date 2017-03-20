@@ -26,14 +26,13 @@ The app uses **Firebase** and **Cloudinary** as it's backend database for data a
 #How to Shop and Track Goods
 1)Click the Carts icon on the menu toolbar to see the latest product or click the floating bar button on the Home Screen
 to go to the categories of goods to select from 
-![](./res/k1.png)
+![](Kongatrack/app/src/main/res/k1.png)
 
 2) Select the category of your choice
 ![](./res/k2.png)
 
-3) Click on any product of your choice to se the details of the goods/product
-![](./res/k3.png)
-
+3) Click on any product of your choice to se the details of the goods/products 
+![](Kongatrack/app/src/main/res/k1.png)
 4)After Viewing the details and comments click the **Add to Carts** button on the top right corner of the screen
 ![](./res/k4.png) ![](./res/k5.png)
 
