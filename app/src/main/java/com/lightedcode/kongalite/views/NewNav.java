@@ -56,7 +56,7 @@ public class NewNav extends AppCompatActivity
     FloatingActionButton fab;
     private String[] activityTitles;
 
-
+    View navheader;
     // flag to load home fragment when user presses back key
     private boolean doubleBackToExitPressedOnce = true;
     private Handler mHandler;
@@ -84,6 +84,10 @@ public class NewNav extends AppCompatActivity
         drawer.setDrawerListener(toggle);
         toggle.syncState();
          navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navheader = navigationView.getHeaderView(0);
+        name = (TextView)navheader.findViewById(R.id.name);
+        email = (TextView)navheader.findViewById(R.id.gmail);
+        dp = (ImageView)navheader.findViewById(R.id.img_profile);
         navigationView.setNavigationItemSelectedListener(this);
         activityTitles = getResources().getStringArray(R.array.nav_item_activity_titles);
            authlistner();
@@ -356,9 +360,6 @@ public class NewNav extends AppCompatActivity
         dref = FirebaseDatabase.getInstance().getReference("Users").getRef();
         DatabaseReference databaseReference = dref.child("username");
         DatabaseReference databaseReference1 = dref.child("email");
-        name = (TextView)findViewById(R.id.name);
-        email = (TextView)findViewById(R.id.email);
-        dp = (ImageView)findViewById(R.id.img_profile);
         auth = FirebaseAuth.getInstance();
        if (auth.getCurrentUser() != null )
        {
