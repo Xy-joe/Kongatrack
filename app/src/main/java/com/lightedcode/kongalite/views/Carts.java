@@ -99,9 +99,9 @@ public class Carts  extends AppCompatActivity implements View.OnClickListener {
         order = (Button) findViewById(R.id.order_button);
         cancel = (Button) findViewById(R.id.cancel);
         total = (TextView) findViewById(R.id.totalp);
-        update.setOnClickListener(this);
+        //update.setOnClickListener(this);
         order.setOnClickListener(this);
-        cancel.setOnClickListener(this);
+        //cancel.setOnClickListener(this);
 
     }
 

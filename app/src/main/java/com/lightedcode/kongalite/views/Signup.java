@@ -39,6 +39,17 @@ EditText fname, ln, uname, pass, confpass, address, gma, phon,state, country;
         setContentView(R.layout.signup_layout);
         signup = (Button)findViewById(R.id.signup_btn);
         login = (Button) findViewById(R.id.login_btn);
+        fname = (EditText) findViewById(R.id.first_name);
+        confpass = (EditText) findViewById(R.id.confirm);
+        address = (EditText) findViewById(R.id.address);
+        ln = (EditText) findViewById(R.id.last_name);
+        uname = (EditText) findViewById(R.id.user_name);
+        pass = (EditText) findViewById(R.id.editText2);
+        phon = (EditText) findViewById(R.id.number);
+        state = (EditText) findViewById(R.id.state);
+        gma = (EditText) findViewById(R.id.email);
+        country = (EditText) findViewById(R.id.country);
+        phon = (EditText) findViewById(R.id.number);
          connectivity = new Connectivity(this);
         auth = FirebaseAuth.getInstance();
 
@@ -60,7 +71,7 @@ EditText fname, ln, uname, pass, confpass, address, gma, phon,state, country;
 
     }
     private boolean profilesetup() {
-        FirebaseUser user = auth.getCurrentUser();
+       final FirebaseUser user = auth.getCurrentUser();
         if (user != null){
             String userid = user.getUid();
             dref = FirebaseDatabase.getInstance().getReference("Users").child(userid);
@@ -112,27 +123,26 @@ EditText fname, ln, uname, pass, confpass, address, gma, phon,state, country;
     }
 
     private void userInfo() {
-        fname = (EditText) findViewById(R.id.first_name);
-        firstname = fname.getText().toString();
-        ln = (EditText) findViewById(R.id.last_name);
-        lastname = ln.getText().toString();
-        uname = (EditText) findViewById(R.id.user_name);
-        username = uname.getText().toString();
-        phon = (EditText) findViewById(R.id.number);
+
+        firstname = fname.getText().toString().trim();
+
+        lastname = ln.getText().toString().trim();
+
+        username = uname.getText().toString().trim();
 
 
-        phone = phon.getText().toString();
-        address = (EditText) findViewById(R.id.address);
-        addre = address.getText().toString();
-        state = (EditText) findViewById(R.id.state);
-        sta = state.getText().toString();
-        country = (EditText) findViewById(R.id.country);
-        count = country.getText().toString();
-        gma = (EditText) findViewById(R.id.email);
-        email = gma.getText().toString();
-        pass = (EditText) findViewById(R.id.editText2);
+        phone = phon.getText().toString().trim();
+
+        addre = address.getText().toString().trim();
+
+        sta = state.getText().toString().trim();
+
+        count = country.getText().toString().trim();
+
+        email = gma.getText().toString().trim();
+
         password = pass.getText().toString();
-        confpass = (EditText) findViewById(R.id.confirm);
+
         confirm = confpass.getText().toString();
 
         if (TextUtils.isEmpty(firstname)) {
@@ -186,7 +196,6 @@ EditText fname, ln, uname, pass, confpass, address, gma, phon,state, country;
         }else {
 
                 pd.show();
-            if (connectivity.isConnected()) {
                     auth.createUserWithEmailAndPassword(email, password).
                             addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                                 @Override
@@ -206,11 +215,6 @@ EditText fname, ln, uname, pass, confpass, address, gma, phon,state, country;
                                  e.printStackTrace();
                         }
                     });
-                }else {
-                Toast.makeText(Signup.this, "Internet connection failed",
-                        Toast.LENGTH_SHORT).show();
-
-            }
                         }
     }
     private boolean isValidEmail(String email) {
